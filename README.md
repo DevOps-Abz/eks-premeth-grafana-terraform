@@ -37,6 +37,15 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ### Infrastructure as Code (IaC)
 - **Terraform** – Declarative AWS infrastructure as code with automated provisioning
+- Create VPC with public and private subnets across multiple AZs
+- Configure Internet Gateway, NAT Gateway, and route tables
+- Provision EKS control plane with private endpoint access
+- Create managed node groups in private subnets (On-Demand & Spot)
+
+---
+
+### Infrastructure as Code (IaC)
+- **Terraform** – Declarative AWS infrastructure as code with automated provisioning
 
 ---
 
