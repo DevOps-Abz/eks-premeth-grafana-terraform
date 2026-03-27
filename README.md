@@ -11,12 +11,6 @@ enforces least-privilege security by design.
 
 ---
 
-## Architecture
-
-![Diagram](https://github.com/DevOps-Abz/ecs-fargate-terraform/blob/main/images/main-diagram.png)
-
----
-
 ## What is delpoyed?
 
 A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring.
