@@ -1,13 +1,6 @@
 # Production-Ready Deployment on Amazon EKS Using Terraform, ArgoCD , Prometheus , Grafana & ALB
 
-A production-grade AWS EKS deployment featuring containerisation, Infrastructure as Code, GitOps practices, and secure CI/CD automation.
-
----
-
-##  Project Overview
-
-This project demonstrates a production-focused AWS deployment that applies DevOps best practices, automates infrastructure end to end, and 
-enforces least-privilege security by design.
+This project demonstrates a production-focused AWS deployment that applies DevOps best practices.
 
 ---
 
