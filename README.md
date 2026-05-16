@@ -1,4 +1,4 @@
-# Production-Ready Deployment on Amazon EKS Using Terraform, ArgoCD , Prometheus , Grafana & ALB
+# Production-Ready Deployment on Amazon EKS Using Terraform, ArgoCD, Prometheus, Grafana & ALB
 
 This project demonstrates a production-focused AWS deployment that applies DevOps best practices.
 
@@ -343,4 +343,4 @@ eksctl delete cluster --name testing-my-cluster --region ap-south-1
 terraform destroy -var-file="stage.tfvars" -auto-approve
 terraform destroy -var-file="prod.tfvars" -auto-approve.
 ```
-
+=======

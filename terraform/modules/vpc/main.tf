@@ -15,8 +15,6 @@ data "aws_availability_zones" "available" {
   state = "available"
 }
 
-
-
 resource "aws_subnet" "public_subnet" {
   count                   = length(var.public_subnet)
   vpc_id                  = aws_vpc.main.id
@@ -50,8 +48,6 @@ resource "aws_subnet" "private_subnet" {
   depends_on = [aws_vpc.main]
 }
 
-
-
 resource "aws_internet_gateway" "igw" {
   vpc_id = aws_vpc.main.id
 
@@ -63,8 +59,6 @@ resource "aws_internet_gateway" "igw" {
 
   depends_on = [aws_vpc.main]
 }
-
-
 
 resource "aws_eip" "nat_eip" {
   domain = "vpc"
@@ -87,9 +81,6 @@ resource "aws_nat_gateway" "nat_gateway" {
 
   depends_on = [aws_vpc.main, aws_eip.nat_eip]
 }
-
-
-
 
 resource "aws_route_table" "public_rt" {
   vpc_id = aws_vpc.main.id
@@ -115,9 +106,6 @@ resource "aws_route_table_association" "public_rt_association" {
 
   depends_on = [aws_vpc.main, aws_subnet.public_subnet]
 }
-
-
-
 
 resource "aws_route_table" "private_rt" {
   vpc_id = aws_vpc.main.id
