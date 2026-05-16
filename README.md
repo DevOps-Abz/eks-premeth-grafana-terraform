@@ -11,6 +11,48 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ---
 
+## Flipkart Application
+
+A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring.
+The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
+
+---
+
+## Grafana
+
+A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring.
+The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
+
+---
+
+## Prometheus
+
+A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring.
+The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
+
+---
+
+## Terraform
+
+A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring.
+The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
+
+---
+
+## ArgoCD
+
+A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring.
+The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
+
+---
+
+## Elastic Kubernetes Services
+
+A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring.
+The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
+
+---
+
 ## Key Features & Implementation:
 
 - **A scalable production-grade deployment** on AWS EKS 
