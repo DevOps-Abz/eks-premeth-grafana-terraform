@@ -11,8 +11,7 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ---
 
-## Flipkart Application
-
+![Diagram](https://github.com/DevOps-Abz/ecs-fargate-terraform/blob/main/images/git-actions-deploy-workflow.png)
 Working progress... 
 
 ---
