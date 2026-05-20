@@ -11,7 +11,7 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ---
 
-![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/FlipkartApplication.png)
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Flipkart Application.png)
 
 ---
 
