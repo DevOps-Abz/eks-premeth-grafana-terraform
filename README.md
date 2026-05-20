@@ -9,8 +9,6 @@ This project demonstrates a production-focused AWS deployment that applies DevOp
 A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring.
 The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
 
----
-
 ![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Flipkart Application.png)
 
 ---
@@ -23,21 +21,25 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ## Prometheus
 
-Working progress... 
-
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Prometheus.png)
 
 ---
 
 ## Terraform
 
-Working progress... 
-
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Terraform.png)
 
 ---
 
 ## ArgoCD
 
-Working progress... 
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/ArgoCD.png)
+
+---
+
+## Kubernetes
+
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Kubernetes.png)
 
 ---
 
