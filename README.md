@@ -11,15 +11,13 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ---
 
-![Diagram](https://github.com/DevOps-Abz/ecs-fargate-terraform/blob/main/images/git-actions-deploy-workflow.png)
-Working progress... 
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/FlipkartApplication.png)
 
 ---
 
 ## Grafana
 
-Working progress... 
- 
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Grafana.png)
 
 ---
 
