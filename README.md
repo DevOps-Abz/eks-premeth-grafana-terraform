@@ -46,8 +46,13 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ## Kubernetes
 
-
 ![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Kubernetes.png)
+
+### Kubernetes & Add-Ons
+- Install AWS Load Balancer Controller
+- Deploy ArgoCD for GitOps-based application delivery
+- Install Prometheus and Grafana for cluster monitoring
+- Configure Ingress resources for applications
 
 ---
 
@@ -134,38 +139,12 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ---
 
-### Infrastructure as Code (IaC) - Terraform
-- Declarative AWS infrastructure as code with automated provisioning
-- Create VPC with public and private subnets across multiple AZs
-- Configure Internet Gateway, NAT Gateway, and route tables
-- Provision EKS control plane with private endpoint access
-- Create managed node groups in private subnets (On-Demand & Spot)
-
----
-
 ### Security & Access
 - Configure IAM roles and policies for EKS and node groups
 - Enable IRSA using OIDC for Kubernetes service accounts
 - Restrict cluster access using Bastion Host
 - Secure inbound traffic via ALB and Security Groups
 
----
-
-### Kubernetes Add-Ons
-- Install AWS Load Balancer Controller
-- Deploy ArgoCD for GitOps-based application delivery
-- Install Prometheus and Grafana for cluster monitoring
-- Configure Ingress resources for applications
-
----
-
-### Kubernetes Add-Ons
-- Install AWS Load Balancer Controller
-- Deploy ArgoCD for GitOps-based application delivery
-- Install Prometheus and Grafana for cluster monitoring
-- Configure Ingress resources for applications
-
----
 
 ### Networking & DNS
 - Expose applications using ALB Ingress
