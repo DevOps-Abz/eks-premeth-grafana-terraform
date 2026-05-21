@@ -15,6 +15,59 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ---
 
+## Project Structure
+```
+.
+├── deployment
+│   ├── amazon-deployment.yaml
+│   ├── flipkart-deployment.yaml
+│   ├── ingress.yaml
+│   └── namespace.yml
+├── README.md
+└── terraform
+    ├── bastion_script.sh
+    ├── dev.tfvars
+    ├── main.tf
+    ├── modules
+    │   ├── bastion
+    │   │   ├── main.tf
+    │   │   ├── outputs.tf
+    │   │   └── variables.tf
+    │   ├── eks
+    │   │   ├── main.tf
+    │   │   ├── outputs.tf
+    │   │   └── variables.tf
+    │   ├── helm
+    │   │   ├── alb-controller-helm.tf
+    │   │   ├── argocd.tf
+    │   │   ├── outputs.tf
+    │   │   ├── prometheus.tf
+    │   │   └── variables.tf
+    │   ├── iam
+    │   │   ├── alb-controller-policy.tf
+    │   │   ├── main.tf
+    │   │   ├── outputs.tf
+    │   │   └── variables.tf
+    │   ├── service-account
+    │   │   └── alb-sa.tf
+    │   ├── sg
+    │   │   ├── main.tf
+    │   │   ├── outputs.tf
+    │   │   └── variables.tf
+    │   └── vpc
+    │       ├── main.tf
+    │       ├── outputs.tf
+    │       └── variables.tf
+    ├── outputs.tf
+    ├── provider.tf
+    ├── staging.tfvars
+    ├── variables.tf
+    └── versions.tf
+```
+
+---
+
+
 ## Elastic Kubernetes Services ✅ - All pods successfully running 
 
 A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring. The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
@@ -82,58 +135,6 @@ A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps 
 
 - **Application Load Balancer (ALB)** – AWS ALB Ingress Controller for traffic management, health checks, and scalability
  
----
-
-## Project Structure
-```
-.
-├── deployment
-│   ├── amazon-deployment.yaml
-│   ├── flipkart-deployment.yaml
-│   ├── ingress.yaml
-│   └── namespace.yml
-├── README.md
-└── terraform
-    ├── bastion_script.sh
-    ├── dev.tfvars
-    ├── main.tf
-    ├── modules
-    │   ├── bastion
-    │   │   ├── main.tf
-    │   │   ├── outputs.tf
-    │   │   └── variables.tf
-    │   ├── eks
-    │   │   ├── main.tf
-    │   │   ├── outputs.tf
-    │   │   └── variables.tf
-    │   ├── helm
-    │   │   ├── alb-controller-helm.tf
-    │   │   ├── argocd.tf
-    │   │   ├── outputs.tf
-    │   │   ├── prometheus.tf
-    │   │   └── variables.tf
-    │   ├── iam
-    │   │   ├── alb-controller-policy.tf
-    │   │   ├── main.tf
-    │   │   ├── outputs.tf
-    │   │   └── variables.tf
-    │   ├── service-account
-    │   │   └── alb-sa.tf
-    │   ├── sg
-    │   │   ├── main.tf
-    │   │   ├── outputs.tf
-    │   │   └── variables.tf
-    │   └── vpc
-    │       ├── main.tf
-    │       ├── outputs.tf
-    │       └── variables.tf
-    ├── outputs.tf
-    ├── provider.tf
-    ├── staging.tfvars
-    ├── variables.tf
-    └── versions.tf
-```
-
 ---
 
 ### Security & Access
