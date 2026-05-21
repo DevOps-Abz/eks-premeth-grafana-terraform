@@ -21,12 +21,6 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ---
 
-## Prometheus
-
-![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Prometheus.png)
-
----
-
 ### Infrastructure as Code (IaC) - Terraform
 - Declarative AWS infrastructure as code with automated provisioning
 - Create VPC with public and private subnets across multiple AZs
@@ -35,12 +29,6 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 - Create managed node groups in private subnets (On-Demand & Spot)
 
 ![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Terraform.png)
-
----
-
-## ArgoCD
-
-![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/ArgoCD.png)
 
 ---
 
@@ -53,6 +41,18 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 - Deploy ArgoCD for GitOps-based application delivery
 - Install Prometheus and Grafana for cluster monitoring
 - Configure Ingress resources for applications
+
+---
+
+## Prometheus
+
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Prometheus.png)
+
+---
+
+## ArgoCD
+
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/ArgoCD.png)
 
 ---
 
