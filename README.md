@@ -68,13 +68,14 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 ---
 
 
-## Elastic Kubernetes Services ✅ - All pods successfully running 
+## Elastic Kubernetes Services ✅ - All pods running successfully 
 
 A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring. The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
 
 ![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Kubernetes.png)
 
 ### Kubernetes & Add-Ons
+
 - Install AWS Load Balancer Controller
 - Deploy ArgoCD for GitOps-based application delivery
 - Install Prometheus and Grafana for cluster monitoring
