@@ -15,12 +15,6 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ---
 
-## Grafana
-
-![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Grafana.png)
-
----
-
 ## Terraform
 
 ![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Terraform.png)
@@ -37,6 +31,18 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 ## Kubernetes
 
 ![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Kubernetes.png)
+
+## Elastic Kubernetes Services
+
+A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring. The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
+
+---
+
+## Grafana
+
+![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/Grafana.png)
+
+---
 
 ### Kubernetes & Add-Ons
 - Install AWS Load Balancer Controller
@@ -56,12 +62,6 @@ The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA,
 
 ![Diagram](https://github.com/DevOps-Abz/eks-premeth-grafana-terraform/blob/main/images/ArgoCD.png)
 
----
-
-## Elastic Kubernetes Services
-
-A Flipcart application on AWS EKS demonstrating real-world DevOps and DevSecOps practices integrating ArgoCD for GitOps, Prometheus and Grafana for monitoring.
-The architecture uses private node groups, NAT Gateway, Bastion Host, IAM, IRSA, and AWS Load Balancers, ensuring security, scalability, and automation. 
 
 ---
 
